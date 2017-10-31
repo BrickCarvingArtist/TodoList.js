@@ -294,7 +294,7 @@ var TodoList = function(){
 		var element = option.element,
 			hook = option.mounted;
 		if(!(element instanceof HTMLElement)){
-			throw new Error ("清为配置添加element属性！");
+			throw new Error ("请为配置添加element属性！");
 		}
 		// 执行初始化TodoList
 		TodoList.init(option.element, function(){
